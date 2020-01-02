@@ -1,0 +1,29 @@
+.all{
+    width: 200px;
+    height: 900px;
+    margin: auto;
+    transition: .5s;
+    z-index: 1;
+
+}
+.picture{
+    text-align: center;
+    background-color: #e1e2e3;
+    font-size: 20px;
+    transition: .3s;
+}
+.all:hover{
+    box-shadow: 0 0 10px #0ff;
+    border-color:#0ff;
+    width: 480px;
+    height: 900px;
+}
+.all:hover .picture{
+    height: 900px;
+}
+.hide{
+    margin-left: 500px;
+    margin-top: -500px;
+    z-index: -1;
+    position: fixed;
+}

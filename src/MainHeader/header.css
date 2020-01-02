@@ -1,0 +1,31 @@
+.header_main{
+    background-color:#353e55;
+    height: 60px;
+}
+.logo_box {
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    line-height: 60px;
+}
+.title_box{
+    float: left;
+}
+.title_box p{
+    line-height: 60px;
+    color: white;
+}
+.lable_box {
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+}
+.lable_box p {
+    line-height: 60px;
+    color: white;
+    margin-left: 13px;
+}
+.lable_box:hover {
+    background-color: rgb(20, 18, 31);
+}
